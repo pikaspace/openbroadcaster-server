@@ -4,6 +4,29 @@
 
 @import "../../scss/all";
 
+
+:root {
+  /* use these variables with background-color (or background) property only */
+  --color-bg-main: #eeeeec;
+  --color-bg-mid: #a6a6a5; /* use this for player box too */
+  --color-bg-field: #ffffff;
+  --color-bg-notice-default: #2e3436;
+  --color-bg-notice-success: #a3c77f;
+  --color-bg-notice-warning: #e3dba0;
+  --color-bg-notice-danger: #ffffff;
+  --color-bg-button-default: #2e3436;
+  --color-bg-button-success: #a3c77f;
+  --color-bg-button-warning: #e3dba0;
+  --color-bg-button-danger: #ffffff;
+
+  /* use these variables with the color property only */
+  --color-text-field: #333336;
+  --color-text-placeholder: #2e3436;
+  --color-text: #333336;
+  --color-text-inverse: #eeeeec;
+  --color-text-link: #204a87;
+}
+
 html
 {
     --field-background: #2e3436;
@@ -12,7 +35,7 @@ html
 
 body, 
 #main_container,
-#footer_box_left a,
+#footer_box_left
 #footer_box_right
 {
   color: #333336;

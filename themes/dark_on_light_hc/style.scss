@@ -4,10 +4,32 @@
 
 @import "../../scss/all";
 
+:root {
+  /* use these variables with background-color (or background) property only */
+  --color-bg-main: #ededf1;
+  --color-bg-mid: #a5a5a8; /* use this for player box too */
+  --color-bg-field: #ffffff;
+  --color-bg-notice-default: #ffffff;
+  --color-bg-notice-success: #1e5a1e;
+  --color-bg-notice-warning: #DDC714;
+  --color-bg-notice-danger: #ffffff;
+  --color-bg-button-default: #ffffff;
+  --color-bg-button-success: #1e5a1e;
+  --color-bg-button-warning: #DDC714;
+  --color-bg-button-danger: #ffffff;
+
+  /* use these variables with the color property only */
+  --color-text-field: #272727;
+  --color-text-placeholder: #2e3436;
+  --color-text: #000000;
+  --color-text-inverse: #ffffff;
+  --color-text-link: #11308c;
+}
+
 html
 {
-    --field-background: #272727;
-    --field-color: #fff;
+    --field-background: #272727; /* this is now color-bg-field */
+    --field-color: #fff; /* now color-text-field */
 }
 
 body, 
@@ -15,29 +37,29 @@ body,
 #footer_box_left a,
 #footer_box_right
 {
-  color: #000000; /**/ 
+  color: var(--color-text); /**/ 
 
   scrollbar-color: #272727 rgba(0,0,0,0);
 }
 
 a
 {
-  color: #11308c; /**/
+  color: var(--color-text-link); /**/
 }
 
 body, #main_container, ob-tag-suggestions
 {
-  background-color: #ededf1; /**/
+  background-color: var(--color-bg-main); /**/
 }
 
 fieldset, #layout_footer
 {
-  border-top-color: #000000;  /**/
+  border-top-color: var(--color-text);  /**/
 }
 
 .table th
 {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--color-text);
 }
 
 .table td
@@ -47,11 +69,11 @@ fieldset, #layout_footer
 
 ob-tab-select button
 {  
-  color: #000;
+  color: var(--color-text);
 
   &.active
   {
-    border: 1px solid #000;
+    border: 1px solid var(--color-text);
   }
 }
 
@@ -73,7 +95,7 @@ ob-media-input ob-media
 ob-media-input:empty,
 ob-playlist-input:empty
 {
-  border-color: #000;
+  border-color: var(--color-text);
 }
 
 input, select, textarea
@@ -83,7 +105,7 @@ input, select, textarea
 
 ob-tag-input
 {
-  border-color: #000;
+  border-color: var(--color-text);
 }
 
 ob-playlist-input, ob-media-input
@@ -106,7 +128,7 @@ button.add, a.button.add
 button.edit, a.button.edit
 {
   background-color: #DDC714; /**/
-  color: #000;
+  color: var(--color-text);
 }
 
 button.delete, a.button.delete
@@ -129,7 +151,7 @@ button.delete, a.button.delete
 .message.warning
 {
   background-color: #DDC714; /**/
-  color: #000;
+  color: var(--color-text);
 }
 
 .message.error
@@ -347,11 +369,11 @@ button.delete, a.button.delete
 #alert, #confirm
 {
   background-color: #ededf1;
-  border: 1px solid #000;
+  border: 1px solid var(--color-text);
 }
 
 #drag_helper
 {
-  background-color: #000;
+  background-color: var(--color-text);
   color: #fff;
 }

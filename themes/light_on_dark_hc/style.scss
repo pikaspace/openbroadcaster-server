@@ -4,6 +4,30 @@
 
 @import "../../scss/all";
 
+
+:root {
+  /* use these variables with background-color (or background) property only */
+  --color-bg-main: #17171b;
+  --color-bg-mid: #101013; /* use this for player box too */
+  --color-bg-field: #ffffff;
+  --color-bg-notice-default: #ffffff;
+  --color-bg-notice-success: #a8ff4b;
+  --color-bg-notice-warning: #ffff8b;
+  --color-bg-notice-danger: #ffffff;
+  --color-bg-button-default: #ffffff;
+  --color-bg-button-success: #a8ff4b;
+  --color-bg-button-warning: #ffff8b;
+  --color-bg-button-danger: #ffffff;
+
+  /* use these variables with the color property only */
+  --color-text-field: #17171b;
+  --color-text-placeholder: #2e3436;
+  --color-text: #ffffff;
+  --color-text-inverse: #000000;
+  --color-text-link: #6dabdc;
+}
+
+
 /* Light On Dark (High Contrast) Theme */
 
 html
