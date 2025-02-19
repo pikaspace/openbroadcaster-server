@@ -9,7 +9,7 @@
   /* use these variables with background-color (or background) property only */
   --color-bg-main: #eeeeec;
   --color-bg-mid: #a6a6a5; /* use this for player box too */
-  --color-bg-field: #ffffff;
+  --color-bg-field: #2e3436;
   --color-bg-notice-default: #2e3436;
   --color-bg-notice-success: #a3c77f;
   --color-bg-notice-warning: #e3dba0;
@@ -20,17 +20,33 @@
   --color-bg-button-danger: #ffffff;
 
   /* use these variables with the color property only */
-  --color-text-field: #333336;
+  --color-text-field: #eeeeec;
   --color-text-placeholder: #2e3436;
   --color-text: #333336;
   --color-text-inverse: #eeeeec;
   --color-text-link: #204a87;
+
+      /* more variables */
+    // --color-scrollbar-thumb:
+    // --color-scrollbar-track: 
+   
+    //no table border colour listed for Dark LC
+    // --color-table-border:
+    --color-bg-media: var(--color-bg-image);
+    --color-bg-playlist: var(--color-bg-image);
+    --color-bg-show: var(--color-bg-image);
+    --color-bg-audio: #9b9bc4;
+    --color-bg-video: #a3c77f;
+    --color-bg-image: #ca9999;
+    --color-bg-document: var(--color-bg-image);
+    --color-bg-dynselect: #d3d7cf;
+    --color-bg-breakpoint: #e3dba0;
+    --color-bg-stationid: #99bfbf;
 }
 
 html
 {
-    --field-background: #2e3436;
-    --field-color: #eeeeec;
+  
 }
 
 body, 

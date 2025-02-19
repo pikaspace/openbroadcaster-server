@@ -49,17 +49,17 @@
 
 #playlist_edit_advanced .playlist_addedit_advanced_item.audio
 {
-  background: #669;
+  background: var(--color-bg-audio);
 }
 
 #playlist_edit_advanced .playlist_addedit_advanced_item.video
 {
-  background: #696;
+  background: var(--color-bg-video);
 }
 
 #playlist_edit_advanced .playlist_addedit_advanced_item.image
 {
-  background: #966;
+  background: var(--color-bg-image);
 }
 
 #playlist_edit_advanced .playlist_addedit_advanced_item.selected

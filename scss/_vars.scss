@@ -1,7 +1,67 @@
+:root {
+    /* use these variables with background-color (or background) property only */
+    --color-bg-main: #333336;
+    --color-bg-mid: #242426; /* use this for player box too */
+    --color-bg-field: #eeeeec;
+    --color-bg-notice-default: #eeeeec;
+    --color-bg-notice-success: #9de259;
+    --color-bg-notice-warning: #fcef88;
+    --color-bg-notice-danger: #bf2121;
+    --color-bg-button-default: #eeeeec;
+    --color-bg-button-success: #9de259;
+    --color-bg-button-warning: #fcef88;
+    --color-bg-button-danger: #bf2121;
+  
+    /* use these variables with the color property only */
+    --color-text-field: #2e3436;
+    --color-text-placeholder: #757575;
+    --color-text: #eeeeec;
+    --color-text-inverse: #333336;
+    --color-text-link: #729fcf;
+
+    /* more variables  */
+    // --color-scrollbar-thumb:
+    // --color-scrollbar-track: 
+    --color-table-border: #777777;
+    --color-bg-media: var(--color-bg-image);
+    --color-bg-playlist: var(--color-bg-image);
+    --color-bg-show: var(--color-bg-image);
+    --color-bg-audio: #666699;
+    --color-bg-video: #669966;
+    --color-bg-image:#996666;
+    --color-bg-document: var(--color-bg-image);
+    --color-bg-dynselect: #666666;
+    --color-bg-breakpoint: #999966;
+    --color-bg-stationid: #557777;
+
+    /*
+
+    1. --color-cursor-pointer: #bf2121;
+    
+    2. text color #000000; replace with color-text-field?
+    
+    3. How do we define variables as rgba(255,255,255,0.8)?
+
+    4. Should we create var for borders?  I.e. --border: 1px solid #eeeeec;
+
+    5. Other colours used:
+    #cccccc (used multiple times as a text colour)
+    #555753 (used as a background colour and text colour multiple times)
+    #e09529
+    #FF9797
+    #ffff00
+
+    6. How do we define: scrollbar-color: rgba(0,0,0,0) rgba(0,0,0,0);?
+
+    7. --color-bg--edit: #aaaaaa;
+
+    */
+    
+  }
+  
+
 html
 {
-    --field-background: #eeeeec;
-    --field-color: #2e3436;
     --field-border: 0;
     --field-radius: 2px;
     --field-width: 250px;

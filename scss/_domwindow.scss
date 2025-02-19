@@ -1,8 +1,8 @@
 #DOMWindow
 {
-  color: #eeeeec;
+  color: var(--color-text);
   border-radius: 5px;
-  background-color: #333336;
+  background-color: var(--color-bg-main);
   border: 1px solid #eeeeec;
 }
 

@@ -8,7 +8,7 @@
   /* use these variables with background-color (or background) property only */
   --color-bg-main: #ededf1;
   --color-bg-mid: #a5a5a8; /* use this for player box too */
-  --color-bg-field: #ffffff;
+  --color-bg-field: #272727;
   --color-bg-notice-default: #ffffff;
   --color-bg-notice-success: #1e5a1e;
   --color-bg-notice-warning: #DDC714;
@@ -19,17 +19,34 @@
   --color-bg-button-danger: #ffffff;
 
   /* use these variables with the color property only */
-  --color-text-field: #272727;
+  --color-text-field: #ffffff;
   --color-text-placeholder: #2e3436;
   --color-text: #000000;
   --color-text-inverse: #ffffff;
   --color-text-link: #11308c;
+
+        /* more variables */
+    // --color-scrollbar-thumb:
+    // --color-scrollbar-track: 
+    --color-table-border: #555555;
+    --color-bg-media: var(--color-bg-image);
+    --color-bg-playlist: var(--color-bg-image);
+    --color-bg-show: var(--color-bg-image);
+    --color-bg-audio: #A3A2E5;
+    --color-bg-video: #afd5b0;
+    --color-bg-image: #E09998;
+    --color-bg-document: var(--color-bg-image);
+    --color-bg-dynselect: #babcb8;
+    --color-bg-breakpoint: #bdbe8c;
+    --color-bg-stationid: #8cbaba;
+    
+
 }
 
 html
 {
-    --field-background: #272727; /* this is now color-bg-field */
-    --field-color: #fff; /* now color-text-field */
+    /* this is now color-bg-field */
+    /* now color-text-field */
 }
 
 body, 

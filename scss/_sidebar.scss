@@ -102,7 +102,7 @@
 
 #sidebar_search_playlist_container
 {
-  background-color: #555753;
+  background-color: var(--color-bg-playlist);
   /* display: flex; done by js */
   flex: auto;
 }
@@ -120,12 +120,12 @@
 
 .sidebar_search_media_container_basic
 {
-  background-color: #555753;
+  background-color: var(--color-bg-media);
 }
 
 .sidebar_search_media_container_detailed
 {
-  background: #555753;
+  background: var(--color-bg-media);
 }
 
 
@@ -227,7 +227,7 @@ body.sidebar-left .sidebar_search_media_container_detailed #media_detailed_toggl
 
 #sidebar_search_tabs a
 {
-  color: #eeeeec;
+  color: var(--color-text);
 }
 
 #sidebar_search_tabs a:hover

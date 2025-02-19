@@ -1,8 +1,8 @@
 body
 {
   font-size: 15px;
-  color: #eeeeec;
-  background-color: #000;
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
 
   scrollbar-color: #919191 rgba(0,0,0,0);
 }
@@ -19,7 +19,7 @@ body.font-opendyslexic
 
 a
 {
-  color: #729fcf;
+  color: var(--color-text-link);
   text-decoration: none;
 }
 
@@ -38,32 +38,32 @@ p
   max-width: 800px;
   margin: 15px 0;
   padding: 4px 6px;
-  background-color: #eeeeec;
-  color: #2e3436;
+  background-color: var(--color-bg-notice-default);
+  color: var(--color-text-field);
   border-radius: 5px;
 }
 
 .message.success
 {
-  background-color: #9de259;
+  background-color: var(--color-bg-notice-success);
 }
 
 .message.warning
 {
-  background-color: #fcef88;
+  background-color: var(--color-bg-notice-warning);
 }
 
 .message.error
 {
-  background-color: #bf2121;
-  color: #eeeeec;
+  background-color: var(--color-bg-notice-danger);
+  color: var(--color-text);
 }
 
 button, input[type=submit], input[type=reset], input[type=button], a.button
 {
   padding: 4px 6px;
-  background-color: #eeeeec;
-  color: #2e3436;
+  background-color: var(--color-bg-button-default);
+  color: var(--color-text-field);
   font-size: 13px;
   border: 0;
   border-radius: 5px;
@@ -91,18 +91,18 @@ input::placeholder
 
 button.add, a.button.add
 {
-  background-color: #9de259;
+  background-color: var(--color-bg-button-success);
 }
 
 button.edit, a.button.edit
 {
-  background-color: #fcef88;
+  background-color: var(--color-bg-button-warning);
 }
 
 button.delete, a.button.delete
 {
-  background-color: #bf2121;
-  color: #eeeeec;
+  background-color: var(--color-bg-button-danger);
+  color: var(--color-text);
 }
 
 fieldset
@@ -181,7 +181,7 @@ input[type=email], input[type=number], input[type=tel], input[type=url],
 select, textarea
 {
   display: inline-block;
-  color: #2e3436;
+  color: var(--color-text-field);
   font-size: 13px;
   border-radius: 2px;
   border: 0;
@@ -245,7 +245,8 @@ input[type=range], input[type=color]
 .table td
 {
   padding: 5px 10px;
-  border-bottom: 1px solid #777;
+  // border-bottom: 1px solid #777;
+  border-bottom: 1px solid var(--color-table-border);
 }
 
 .table tr:last-child td
@@ -298,7 +299,7 @@ ob-tab-select
   button
   {
     background-color: transparent !important;
-    color: #eeeeec;
+    color: var(--color-text);
     border: 0;
 
     &.active
@@ -341,8 +342,8 @@ ob-group-input ob-group,
 ob-media-input ob-media,
 ob-playlist-input ob-playlist
 {
-  background-color: #eeeeec;
-  color: #000;
+  background-color: var(--color-bg-field);
+  color: var(--color-text-field);
   padding: 5px;
   border-radius: 2px;
   margin: 5px 0;
@@ -412,7 +413,7 @@ ob-tag-suggestions
 {
   width: 250px;
   padding: 4px;
-  background-color: #333336;
+  background-color: var(--color-bg-main);
   border: 1px solid #fff;
   border-radius: 2px;
   display: none;
@@ -453,8 +454,8 @@ ob-tag-input
 ob-tag-input ob-tag
 {
   display: inline-block;
-  background-color: #eeeeec;
-  color: #000;
+  background-color: var(--color-bg-field);
+  color: var(--color-text-field);
   padding: 5px;
   border-radius: 2px;
   margin: 5px;

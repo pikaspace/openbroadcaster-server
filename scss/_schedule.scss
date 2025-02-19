@@ -123,7 +123,7 @@
 .schedule_data > div
 {
   position: absolute;
-  background-color: #666;
+  background-color: var(--color-bg-dynselect);
   border-top: 1px solid #777;
   width: 100%;
 }

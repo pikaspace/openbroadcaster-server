@@ -43,7 +43,7 @@
 
 .playlist_addedit_liveassist_item
 {
-  background: #666;
+  background: var(--color-bg-dynselec);
 }
 
 .playlist_addedit_item, .playlist_addedit_liveassist_item
@@ -102,7 +102,7 @@
 
 .playlist_addedit_item[data-type=audio]
 {
-  background: #669;
+  background: var(--color-bg-audio);
   
   .playlist_addedit_thumbnail:empty::after
   {
@@ -112,17 +112,17 @@
 
 .playlist_addedit_item[data-type=video]
 {
-  background: #696;
+  background: var(--color-bg-video);
 }
 
 .playlist_addedit_item[data-type=image]
 {
-  background: #966;
+  background: var(--color-bg-image);
 }
 
 .playlist_addedit_item[data-type=station_id]
 {
-  background: #577;
+  background: var(--color-bg-stationid);
   
   .playlist_addedit_thumbnail:empty::after
   {
@@ -131,9 +131,9 @@
   }
 }
 
-.playlist_addedit_item[data-type=dynamic],
+.playlist_addedit_item[data-type=dynamic]
 {
-  background: #666;
+  background: var(--color-bg-dynselect);
   
   .playlist_addedit_thumbnail:empty::after
   {
@@ -144,7 +144,7 @@
 
 .playlist_addedit_item[data-type=custom]
 {
-  background: #666;
+  background: var(--color-bg-dynselect);
   
   .playlist_addedit_thumbnail:empty::after
   {
@@ -154,7 +154,7 @@
 
 .playlist_addedit_item[data-type=breakpoint]
 {
-  background: #996;
+  background: var(--color-bg-breakpoint);
   line-height: 30px;
   text-align: center;
 

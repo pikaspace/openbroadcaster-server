@@ -25,6 +25,22 @@
   --color-text: #ffffff;
   --color-text-inverse: #000000;
   --color-text-link: #6dabdc;
+
+      /* more variables */
+    // --color-scrollbar-thumb:
+    // --color-scrollbar-track: 
+    --color-table-border: #aaaaaa;
+    --color-bg-media: var(--color-bg-image);
+    --color-bg-playlist: var(--color-bg-image);
+    --color-bg-show: var(--color-bg-image);
+    --color-bg-audio: #5d5da2;
+    --color-bg-video: #2A512A;
+    --color-bg-image: #a25d5d;
+    --color-bg-document: var(--color-bg-image);
+    --color-bg-dynselect: #454843;
+    --color-bg-breakpoint: #747441;
+    --color-bg-stationid: #457474;
+
 }
 
 
@@ -32,8 +48,6 @@
 
 html
 {
-    --field-background: #ffffff;
-    --field-color: #17171b;
 }
 
 body, 

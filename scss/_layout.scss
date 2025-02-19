@@ -16,7 +16,7 @@ body
   height: 100%;
   position: absolute;
 
-  background-color: #333336;
+  background-color: var(--color-bg-main);
   min-width: 1100px;
   max-width: 1920px;
   margin-left: auto;
@@ -134,7 +134,7 @@ body.sidebar-left #layout_container
   width: 400px;
   min-height: 100px;
   border-radius: 5px;
-  background-color: #333336;
+  background-color: var(--color-bg-main);
   border: 1px solid #eeeeec;
   padding: 15px 15px 70px 15px;
   position: relative;
@@ -230,9 +230,9 @@ body.modal-open #layout_modal_container
 
 #layout_modal_window
 {
-  color: #eeeeec;
+  color: var(--color-text);  
   border-radius: 5px;
-  background-color: #333336;
+  background-color: var(--color-bg-main);
   border: 1px solid #eeeeec;
   padding: 10px;
   overflow: auto;
